@@ -1,14 +1,14 @@
 # AI Engineering Team
 
-A multi-agent system that turns natural-language requirements into a complete Python solution: a backend module, a design document, a Gradio UI, and unit tests. The crew behaves like a small engineering team—design, backend, frontend, and QA—working in sequence.
+A multi-agent system that turns natural-language requirements into a complete Python solution by creating a design document, a backend module, a frontend module, and unit tests. The crew behaves like a lean engineering team performing requirements gathering and documentation, backend development, frontend designing and development, and QA—working in sequence.
 
 ## What This Project Does
 
 You provide **high-level requirements** (and optionally a module/class name). The crew:
 
-1. **Designs** — An engineering lead produces a detailed design (classes, methods, behavior) in Markdown.
-2. **Implements** — A backend engineer writes a single, self-contained Python module that matches the design.
-3. **Builds UI** — A frontend engineer writes a Gradio app that demonstrates the backend.
+1. **Designs** — An engineering lead produces a detailed design (classes, methods, behavior).
+2. **Implements** — A backend engineer writes a self-contained Python module that matches the design.
+3. **Builds UI** — A frontend engineer writes a Gradio app that works with the backend.
 4. **Adds tests** — A test engineer writes a `test_<module_name>.py` with unit tests for the backend.
 
 Outputs are written under an `output/` directory, so you get a runnable module, a launchable Gradio app, and tests you can run with `python -m test_accounts` or `python -m unittest test_accounts`.
