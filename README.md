@@ -23,7 +23,7 @@ Out of the box, the crew is configured to build a **trading account management s
 - Portfolio value, profit/loss, holdings, and transaction history
 - Guards against negative balance, overselling, and overbuying
 
-The pre-generated example lives in `output_gpt_4o/`: `accounts.py`, `accounts.py_design.md`, `app.py`, and `test_accounts.py`. You can run that example without re-running the crew (see [Running the Generated App](#running-the-generated-app)).
+The pre-generated example lives in `output_gpt_4o/`: `accounts.py`, `accounts.py_design.md`, `app.py`, and `test_accounts.py`.
 
 ---
 
