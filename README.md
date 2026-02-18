@@ -30,7 +30,7 @@ The pre-generated example lives in `output_gpt_4o/`: `accounts.py`, `accounts.py
 ## Project Structure
 
 ```
-ai_engineering_team/
+ai-engineering-team/
 ├── README.md                 # This file
 ├── pyproject.toml            # Project metadata and dependencies (CrewAI, Gradio, LiteLLM)
 ├── src/
